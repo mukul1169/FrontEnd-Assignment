@@ -1,0 +1,191 @@
+
+header li{
+		   display: inline-block;
+		   padding-left: 30px;
+		   font-weight: bold;
+		   font-size: 30px;
+		   color: black;
+}
+header ul{
+           float:right;
+           margin-right: 30px;
+}
+header img{
+	        width: 400px;
+            height: 100px;
+            border-radius: 50px;
+            margin-left: 10px;
+
+}
+
+#about{
+	margin-left: 50px;
+	border-radius: 100px;
+	height: 350px;
+	width: 350px;
+	margin-top: 20px;
+	display: flex;
+
+}
+
+#loginsignup{
+	text-align: left;
+	word-spacing: 100px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#loginsignup button{
+	cursor:pointer;
+	font-weight: bold;
+    font-size: 40px;
+    color: blue;
+    background-color: orange;
+    border-color: white;
+    border-width: 5px;
+}
+
+
+h1{
+font-size: 50px; 
+font-weight: bolder; 
+color: darkslategray; 
+margin-top: 100px; 
+text-align: center;
+}
+
+#address{
+	 display: inline-block;
+	 font-size: 20px; 
+	 text-align: center; 
+	 color: slategray; 
+	 margin-top: 15px; 
+	 margin-left: 400; 
+	 margin-bottom: 10px;
+}
+#mail{
+	 display: inline-block;
+	 font-size: 20px; 
+	 text-align: center; 
+	 color: slategray;  
+	 margin-left: 400; 
+	 margin-bottom: 10px;
+}
+#num{
+	 display: inline-block;
+	 font-size: 20px; 
+	 text-align: center; 
+	 color: slategray; 
+	 margin-left: 400; 
+	 margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
+/* login page  */
+
+#loginbody{
+	background-repeat: no-repeat;
+	background-size: 1300px 680px; 
+
+}
+#signupbody{
+	background-repeat: no-repeat;
+	background-size: 1280px 610px; 
+
+}
+#mainbody{
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+}
+#img{
+	width: 500px;
+	height: 500px;
+}
+.userlogin{
+	float: left;
+	margin-left: 50px;
+}
+.userlogin1{
+	float: right;
+	margin-right: 100px;
+}
+#legend1{
+	font-size: 50px;
+	color: blue;
+}
+#legend{
+	font-size: 30px;
+}
+#fieldset{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 200px;
+	margin-right: 170px;
+}
+#fieldset1{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	margin-right: 170px;
+}
+#submit{
+	font-size: 30px;
+	font-weight: bold;
+	border-color: white;
+	background-color: orange;
+	color: blue;
+	cursor: pointer;
+	border-width: 7px;
+}
+#name{
+	font-size: 18px;
+	border-color: brown;
+
+}
+#email{
+	font-size: 18px;
+	border-color: brown;
+
+}
+#number{
+	font-size: 18px;
+	border-color: brown;
+
+}
+#pwd{
+	font-size: 20px;
+	border-color: brown;
+
+}
+#pwd1{
+	font-size: 18px;
+	border-color: brown;
+
+}
+#pwd2{
+	font-size: 18px;
+	border-color: brown;
+
+}
+#user{
+	font-size: 20px;
+	border-color: brown;
+
+}
+#user1{
+	font-size: 18px;
+	border-color: brown;
+
+}
+#logincheck{
+	font-size: 30px;
+	font-weight: bold;
+	border-color: white;
+	background-color: orange;
+	color: blue;
+	cursor: pointer;
+	border-width: 7px;
+	margin-bottom: 10px;
+}
